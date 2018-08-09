@@ -23,6 +23,7 @@ function createLightSummary(summary) {
         Object.assign(error, {'message':failureReport.error.message});
         Object.assign(failure,{'error':error});
         failures.push(failure);
+        print error
     });
     
 
